@@ -6,7 +6,7 @@ const CONFIG = new Config({
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
-    location: 'Matão, São Paulo',
+    location: 'Singapore, Singapore',
     scale: 'C'
   },
   clock: {
@@ -15,8 +15,6 @@ const CONFIG = new Config({
   },
   search: {
     engines: {
-      g: ['https://google.com/search?q=', 'Google'],
-      i: ['https://ixquick.com/do/search?q=', 'Ixquick'],
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
       w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
