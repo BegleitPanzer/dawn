@@ -28,19 +28,19 @@ const CONFIG = new Config({
   openLastVisitedTab: false,
   tabs: [
     {
-      name: 'boards',
+      name: 'dev',
       background_url: 'src/img/banners/bg-1.gif',
       categories: [{
-        name: 'fun',
+        name: 'gh',
         links: [
           {
-            url: 'https://4chan.org/wsg/',
-            name: '/wsg/'
+            url: 'https://4github.com/begleitpanzer',
+            name: 'gh/bp'
           },
           {
-            name: '/out/',
-            url: 'https://4chan.org/out',
-            icon: 'leaf',
+            name: 'git-t',
+            url: 'https://archfx0.xyz',
+            icon: 'cup',
             icon_color: '#64876d'
           },
           {
