@@ -34,12 +34,12 @@ const CONFIG = new Config({
         name: 'gh',
         links: [
           {
-            url: 'https://4github.com/begleitpanzer',
+            url: 'https://github.com/begleitpanzer',
             name: 'gh/bp'
           },
           {
             name: 'git-t',
-            url: 'https://archfx0.xyz',
+            url: 'https://git.noglowingagencies.top',
             icon: 'cup',
             icon_color: '#64876d'
           },
