@@ -35,7 +35,7 @@ const CONFIG = new Config({
         links: [
           {
             url: 'https://github.com/begleitpanzer',
-            name: 'gh/bp'
+            name: 'GitHub'
           },
           {
             name: 'git-t',
@@ -43,35 +43,6 @@ const CONFIG = new Config({
             icon: 'cup',
             icon_color: '#64876d'
           },
-          {
-            name: '/lit/',
-            url: 'https://4chan.org/lit/',
-            icon: 'book'
-          },
-          {
-            name: '/v/',
-            url: 'https://4chan.org/v/',
-            icon: 'device-gamepad',
-            icon_color: '#8b647b'
-          },
-          {
-            name: '/p/',
-            url: 'https://4chan.org/p/',
-            icon: 'camera'
-          }
-        ]
-      },
-      {
-        name: 'Comfy',
-        links: [
-          {
-            name: '/lounge/',
-            url: 'https://sushigirl.us/lounge/catalog.html'
-          },
-          {
-            name: '/comfy/',
-            url: 'https://anon.cafe/comfy/catalog.html'
-          }
         ]
       },
       {
