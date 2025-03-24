@@ -38,8 +38,8 @@ const CONFIG = new Config({
             name: 'GitHub'
           },
           {
-            name: 'git-t',
-            url: 'https://git.noglowingagencies.top',
+            name: 'gitea',
+            url: 'https://git.begleitpanzer.site',
             icon: 'cup',
             icon_color: '#64876d'
           },
