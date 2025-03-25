@@ -2,27 +2,27 @@ const CONFIG = new Config({
   crypto: {
     coin: 'ETH',
     currency: 'USD',
-    refreshIn: 10
+    refreshIn: 10,
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
     location: 'Singapore, Singapore',
-    scale: 'C'
+    scale: 'C',
   },
   clock: {
     format: 'h:i p',
-    iconColor: '#ff7b95'
+    iconColor: '#ff7b95',
   },
   search: {
     engines: {
       d: ['https://duckduckgo.com/html?q=', 'DuckDuckGo'],
       y: ['https://youtube.com/results?search_query=', 'Youtube'],
-      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia']
-    }
+      w: ['https://en.wikipedia.org/w/index.php?search=', 'Wikipedia'],
+    },
   },
   keybindings: {
-    "t": 'todo-list',
-    "s": 'search-bar'
+    t: 'todo-list',
+    s: 'search-bar',
   },
   disabled: [],
   openLastVisitedTab: false,
@@ -35,16 +35,16 @@ const CONFIG = new Config({
         links: [
           {
             url: 'https://github.com/begleitpanzer',
-            name: 'GitHub'
+            name: 'GitHub',
           },
           {
             name: 'gitea',
             url: 'https://git.begleitpanzer.site',
             icon: 'cup',
-            icon_color: '#64876d'
+            icon_color: '#64876d',
           },
-        ]
-      }
+        ],
+      },
       {
         name: 'Technology',
         links: [
@@ -54,24 +54,24 @@ const CONFIG = new Config({
           },
           {
             name: '/Δ/',
-            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html'
+            url: 'https://archive.arisuchan.jp/%CE%94/catalog.html',
           },
           {
             name: '/λ/',
-            url: 'https://www.lainchan.org/%CE%BB/catalog.html'
+            url: 'https://www.lainchan.org/%CE%BB/catalog.html',
           },
           {
             name: '/sec/',
-            url: 'https://www.lainchan.org/sec/catalog.html'
+            url: 'https://www.lainchan.org/sec/catalog.html',
           },
           {
             name: '/prog/',
             url: 'https://boards.420chan.org/prog/',
-            icon: 'code'
-          }
-        ]
-      }
-      ]
+            icon: 'code',
+          },
+        ],
+      },
+      ],
     },
     {
       name: 'music',
@@ -83,18 +83,18 @@ const CONFIG = new Config({
             {
               url: 'https://soundcloud.com/',
               icon: 'brand-soundcloud',
-              icon_color: '#c57750'
+              icon_color: '#c57750',
             },
             {
               url: 'https://youtu.be/',
               icon: 'brand-youtube',
-              icon_color: '#996767'
+              icon_color: '#996767',
             },
             {
               url: 'https://r-a-d.io/',
-              icon: 'radio'
+              icon: 'radio',
             },
-          ]
+          ],
         },
         {
           name: 'music boards',
@@ -102,15 +102,15 @@ const CONFIG = new Config({
             {
               name: '/music/',
               url: 'https://lainchan.org/music/',
-              icon: 'disc'
+              icon: 'disc',
             },
             {
               name: '/mu/',
               url: 'https://boards.4channel.org/mu/',
-            }
-          ]
-        }
-      ]
+            },
+          ],
+        },
+      ],
     },
     {
       name: 'tech',
@@ -121,23 +121,23 @@ const CONFIG = new Config({
           links: [
             {
               name: 'r/startpages/',
-              url: 'https://www.reddit.com/r/startpages/'
+              url: 'https://www.reddit.com/r/startpages/',
             },
             {
               name: 'r/unixporn',
-              url: 'https://www.reddit.com/r/unixporn/'
+              url: 'https://www.reddit.com/r/unixporn/',
             },
             {
               name: 'r/mechkbds/',
               url: 'https://www.reddit.com/r/MechanicalKeyboards/',
               icon: 'keyboard',
-              icon_color: '#a57685'
+              icon_color: '#a57685',
             },
             {
               name: 'r/programming',
-              url: 'https://www.reddit.com/r/programming/'
-            }
-          ]
+              url: 'https://www.reddit.com/r/programming/',
+            },
+          ],
         },
         {
           name: 'blogs',
@@ -145,17 +145,17 @@ const CONFIG = new Config({
             {
               name: 'fasterthanli',
               url: 'https://fasterthanli.me/articles',
-              icon: 'anchor'
+              icon: 'anchor',
             },
             {
               name: 'dev.to',
-              url: 'https://dev.to'
+              url: 'https://dev.to',
             },
             {
               name: 'mataroa.blog',
               url: 'https://collection.mataroa.blog',
-            }
-          ]
+            },
+          ],
         },
         {
           name: 'misc',
@@ -163,16 +163,16 @@ const CONFIG = new Config({
             {
               name: 'post office',
               url: 'http://afternoon.dynu.com/letterbox.html',
-              icon: 'mailbox'
+              icon: 'mailbox',
             },
             {
               name: 'rust docs',
               url: 'https://doc.rust-lang.org/book/',
               icon: 'notebook',
-              icon_color: '#977a3a'
-            }
-          ]
-        }
-      ]
-    }]
+              icon_color: '#977a3a',
+            },
+          ],
+        },
+      ],
+    }],
 });
