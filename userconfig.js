@@ -44,7 +44,7 @@ const CONFIG = new Config({
             icon_color: '#64876d'
           },
         ]
-      },
+      }
       {
         name: 'Technology',
         links: [
