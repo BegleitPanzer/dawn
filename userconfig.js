@@ -174,5 +174,6 @@ const CONFIG = new Config({
           ],
         },
       ],
-    }],
+    },
+  ],
 });
