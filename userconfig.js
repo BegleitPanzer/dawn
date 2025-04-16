@@ -43,6 +43,10 @@ const CONFIG = new Config({
             icon: 'cup',
             icon_color: '#64876d',
           },
+          {
+            name: 'cockpit',
+            url: 'https://begleitpanzer.site:9090',
+          }
         ],
       },
       {
