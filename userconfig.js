@@ -46,7 +46,7 @@ const CONFIG = new Config({
           {
             name: 'cockpit',
             url: 'https://begleitpanzer.site:9090',
-          }
+          },
         ],
       },
       {
