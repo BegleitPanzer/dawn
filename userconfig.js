@@ -1,8 +1,8 @@
 const CONFIG = new Config({
   crypto: {
-    coin: 'ETH',
-    currency: 'USD',
-    refreshIn: 10,
+    coin: 'LTC',
+    currency: 'SGD',
+    refreshIn: 5,
   },
   overrideStorage: true, // override localStorage with fixed userconfig values
   temperature: {
